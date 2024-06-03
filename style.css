@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(4, 0, 255);
+}
+     eight: 100%;
+{
+
+}
+.parent { 
+    display:flex
+    justify-content: "center";
+    align-items: "center";
+    flex-direction: column; 
+    eight: 100%;
+}
