@@ -1,14 +1,10 @@
 body {
-    background-color: rgb(4, 0, 255);
+    background-color: black;
 }
-     eight: 100%;
-{
 
-}
 .parent { 
-    display:flex
+    display:flex;
     justify-content: "center";
     align-items: "center";
     flex-direction: column; 
-    eight: 100%;
 }

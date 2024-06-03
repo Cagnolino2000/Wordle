@@ -1,13 +1,12 @@
-let mycolor = "red"
-function onClick () {
-    if(mycolor === "red") {
-        mycolor = "blue"
+let myColor = "black"
+let parola="Fabio"
+function onClick() {
+    let input = document.getElementById("input").value;
+    if(input===parola) {
+        myColor="green"
+    } else {
+        myColor="red"
     }
-    else
-    {
-        mycolor = "red"
-    }
-
-    document.body.style.backgroundColor = mycolor
+    document.body.style.backgroundColor = myColor;
 }
 
