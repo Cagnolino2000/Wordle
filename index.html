@@ -5,16 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <script src="main.js"></script>
 </head>
 <body>
     <div class="parent">
-        <div>
-            <input id="input" type="text"/>
-        </div> 
-        <div>
-            <button onclick="onClick()">premi qui</button>
-        </div>
+        <form class="inputContainer" onsubmit="onSubmit(event, 0)">
+            <imput type="text" id="input1" oninput="onInput(event)">
+            <imput type="text" id="input2" oninput="onInput(event)">
+            <imput type="text" id="input3" oninput="onInput(event)">
+            <imput type="text" id="input4" oninput="onInput(event)">
+            <imput type="text" id="input5" oninput="onInput(event)">
+            <button id="button" type="submit"></button>
+        </form>
+        <form class="inputContainer" onsubmit="onSubmit(event, 1)">
+            <imput type="text" id="input6" oninput="onInput(event)">
+            <imput type="text" id="input7" oninput="onInput(event)">
+            <imput type="text" id="input8" oninput="onInput(event)">
+            <imput type="text" id="input9" oninput="onInput(event)">
+            <imput type="text" id="input10" oninput="onInput(event)">
+            <button id="button" type="submit"></button>
+        </form>
     </div>
+    <script src="main.js"></script>
 </body>
 </html>
+        
